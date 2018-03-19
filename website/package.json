@@ -2,7 +2,7 @@
   "scripts": {
     "examples": "docusaurus-examples",
     "start": "docusaurus-start",
-    "build": "docusaurus-build && echo '<meta http-equiv=refresh content=\"0;URL=test-site\" />' > build/index.html",
+    "build": "docusaurus-build && echo '/ test-site/' > build/_redirects",
     "publish-gh-pages": "docusaurus-publish",
     "write-translations": "docusaurus-write-translations",
     "version": "docusaurus-version",
