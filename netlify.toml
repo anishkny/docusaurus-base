@@ -5,7 +5,7 @@
   base    = "website/"
 
 # This is the directory that you are publishing from (relative to root of your repo)
-  publish = "website/build/"
+  publish = "build/"
 
 # This will be your default build command
   command = "npm run build"
